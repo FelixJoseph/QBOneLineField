@@ -1,0 +1,16 @@
+PODS:
+  - QBOneLineField (0.1.0)
+
+DEPENDENCIES:
+  - QBOneLineField (from `../`)
+
+EXTERNAL SOURCES:
+  QBOneLineField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QBOneLineField: 88f12d85ab1fbf2b1eefe8ad643cf0857332f78d
+
+PODFILE CHECKSUM: 78e0c09f3faa40776b67d843729d3a3d1b70ca60
+
+COCOAPODS: 1.1.1

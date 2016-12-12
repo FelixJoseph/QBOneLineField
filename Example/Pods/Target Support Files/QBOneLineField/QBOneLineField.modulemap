@@ -1,0 +1,6 @@
+framework module QBOneLineField {
+  umbrella header "QBOneLineField-umbrella.h"
+
+  export *
+  module * { export * }
+}

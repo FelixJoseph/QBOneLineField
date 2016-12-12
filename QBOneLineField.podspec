@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'QBOneLineField'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of QBOneLineField.'
+  s.summary          = 'A Single line field which can be used to enter Login or SighUp details.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,10 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
+  s.description      = 'The field in this library can be used to enter details of login or signup. Multiple entries can be made, one after the other by clicking the next button.'
   s.homepage         = 'https://github.com/<GITHUB_USERNAME>/QBOneLineField'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

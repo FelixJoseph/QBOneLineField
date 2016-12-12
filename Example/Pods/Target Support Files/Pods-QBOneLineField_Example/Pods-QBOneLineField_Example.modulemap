@@ -1,0 +1,6 @@
+framework module Pods_QBOneLineField_Example {
+  umbrella header "Pods-QBOneLineField_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
