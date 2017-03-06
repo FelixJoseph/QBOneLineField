@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		1878B6F8D129743711AD1AAFA2E26DBA /* Pods-QBOneLineField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25744EA7688661920DD42ABADF6EF130 /* Pods-QBOneLineField_Tests-dummy.m */; };
 		2169F78CEF8C499371BBE2C631ECECB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		39F571D89999CCFBE8D23A4CF3818B94 /* QBOneLineField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FD1B522F7F72F08380FF5689AC52A2 /* QBOneLineField-dummy.m */; };
-		4E0DAB44AB07385DBD40B7E0E91FBAAA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6561FD3F7FC05679CB0AF17C1B4E5 /* ReplaceMe.swift */; };
 		596BA1E0912437295F63026164F74B74 /* QBOneLineField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE6A1F9FE3C9E6B1D26671657C7A809 /* QBOneLineField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A6BE428EA176AE538319FBDAD5A08C8 /* Pods-QBOneLineField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6ED4E4326BB8C2A131ECAEDFEC107F9 /* Pods-QBOneLineField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74E0F6D418B7B3BACF2DE6D430CFF975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		77CD437107137661492CA1BDDB9DD01A /* QBOneLineField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FD1B522F7F72F08380FF5689AC52A2 /* QBOneLineField-dummy.m */; };
 		85927DA6BA1DBB255EFE7F6072225F91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		87B697FB603D4BF73A7BFF8A69CB76BC /* Pods-QBOneLineField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E288826CB7B900D6E62BDCE92D97895E /* Pods-QBOneLineField_Example-dummy.m */; };
 		9217E64B81BE53CE75E489A8678C4D4C /* Pods-QBOneLineField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAA6F7D27192F77BF3468294CF0B39A /* Pods-QBOneLineField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF325CC3E413830B41B3CD7D011AF615 /* QBOneLineField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C51C5C7D8884274E8052DABA9EA877 /* QBOneLineField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		30FD1B522F7F72F08380FF5689AC52A2 /* QBOneLineField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QBOneLineField-dummy.m"; sourceTree = "<group>"; };
 		32B6D719FBE463382CC2DCCADE452DB2 /* Pods-QBOneLineField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QBOneLineField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3D132D91D1CBE929CB611700C746DAB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45E6561FD3F7FC05679CB0AF17C1B4E5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		574E2C582344C2FFD525902550D42E9D /* Pods_QBOneLineField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QBOneLineField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5816CF83849D46063359B740E2B1E55B /* QBOneLineField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QBOneLineField.xcconfig; sourceTree = "<group>"; };
 		59661B43A702BF70CBD2EFA88EC6575A /* Pods-QBOneLineField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QBOneLineField_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		971F3F8D68D2B0737D016B9F2923E5B2 /* Pods-QBOneLineField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QBOneLineField_Example-resources.sh"; sourceTree = "<group>"; };
 		B0A613678DCDE73CF7521927088ECBBD /* Pods-QBOneLineField_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QBOneLineField_Tests-resources.sh"; sourceTree = "<group>"; };
+		B6C51C5C7D8884274E8052DABA9EA877 /* QBOneLineField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QBOneLineField.swift; sourceTree = "<group>"; };
 		BAAE356FF17AF0BCF1F87B67DAA450A6 /* Pods-QBOneLineField_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QBOneLineField_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DA6664DA10B4CF16F8B0ADA2DA42AF38 /* Pods-QBOneLineField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QBOneLineField_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		0167D14947DB8A37976988CE8CE1DD47 /* QBOneLineField */ = {
 			isa = PBXGroup;
 			children = (
-				7A6070755C798BAF9F8572D2D26C285E /* Classes */,
+				19443A67484A026D4D8AFDABDE383D06 /* Classes */,
 			);
 			path = QBOneLineField;
 			sourceTree = "<group>";
@@ -116,6 +116,14 @@
 			);
 			name = "Pods-QBOneLineField_Tests";
 			path = "Target Support Files/Pods-QBOneLineField_Tests";
+			sourceTree = "<group>";
+		};
+		19443A67484A026D4D8AFDABDE383D06 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B6C51C5C7D8884274E8052DABA9EA877 /* QBOneLineField.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		398CC20B76DBF1A3A7C5C487A9C1F744 /* QBOneLineField */ = {
@@ -143,14 +151,6 @@
 				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		7A6070755C798BAF9F8572D2D26C285E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				45E6561FD3F7FC05679CB0AF17C1B4E5 /* ReplaceMe.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -274,7 +274,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8336BF7B4E388FC8AFF74002031B6E2 /* Build configuration list for PBXNativeTarget "QBOneLineField" */;
 			buildPhases = (
-				7028EF9175ABBEF88025067A7724A81A /* Sources */,
+				B7DB83F7A83BEB10E03B4753B4DD1C96 /* Sources */,
 				AF5A99807B3C2718872A5A4E8095538D /* Frameworks */,
 				DFB3738965E40289C73E9E673BD4208E /* Headers */,
 			);
@@ -316,9 +316,6 @@
 					3ADFAFB0567F2EC46CE3E134FD61E098 = {
 						LastSwiftMigration = 0800;
 					};
-					9108BCA19684173DC9A6D1C195946BF7 = {
-						LastSwiftMigration = 0800;
-					};
 				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -357,12 +354,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7028EF9175ABBEF88025067A7724A81A /* Sources */ = {
+		B7DB83F7A83BEB10E03B4753B4DD1C96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39F571D89999CCFBE8D23A4CF3818B94 /* QBOneLineField-dummy.m in Sources */,
-				4E0DAB44AB07385DBD40B7E0E91FBAAA /* ReplaceMe.swift in Sources */,
+				77CD437107137661492CA1BDDB9DD01A /* QBOneLineField-dummy.m in Sources */,
+				CF325CC3E413830B41B3CD7D011AF615 /* QBOneLineField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +375,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		183C1F730AD1D990AF6AA458086AFE18 /* Debug */ = {
+		18C4391D73C7AC8007CF8B1B555AA434 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5816CF83849D46063359B740E2B1E55B /* QBOneLineField.xcconfig */;
 			buildSettings = {
@@ -386,7 +383,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -399,17 +396,16 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/QBOneLineField/QBOneLineField.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = QBOneLineField;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		1BDAE2D64EE352113C077E7F02964219 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -450,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E8952D9758ABA710A0967EF3264B1268 /* Pods-QBOneLineField_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -486,6 +483,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 59661B43A702BF70CBD2EFA88EC6575A /* Pods-QBOneLineField_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -638,7 +636,7 @@
 			};
 			name = Debug;
 		};
-		FF8483D88482819F3F63D6B4C916E5AF /* Release */ = {
+		D9743F27838C69E21BD8331075D0F3BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5816CF83849D46063359B740E2B1E55B /* QBOneLineField.xcconfig */;
 			buildSettings = {
@@ -646,7 +644,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -659,16 +657,17 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/QBOneLineField/QBOneLineField.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = QBOneLineField;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -703,8 +702,8 @@
 		C8336BF7B4E388FC8AFF74002031B6E2 /* Build configuration list for PBXNativeTarget "QBOneLineField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				183C1F730AD1D990AF6AA458086AFE18 /* Debug */,
-				FF8483D88482819F3F63D6B4C916E5AF /* Release */,
+				D9743F27838C69E21BD8331075D0F3BB /* Debug */,
+				18C4391D73C7AC8007CF8B1B555AA434 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

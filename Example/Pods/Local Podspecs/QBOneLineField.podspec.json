@@ -1,9 +1,9 @@
 {
   "name": "QBOneLineField",
   "version": "0.1.0",
-  "summary": "A short description of QBOneLineField.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/QBOneLineField",
+  "summary": "A Single line field which can be used to enter Login or SighUp details.",
+  "description": "The field in this library can be used to enter details of login or signup. Multiple entries can be made, one after the other by clicking the next button.",
+  "homepage": "https://github.com/FelixJoseph/QBOneLineField",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Felix": "felix@qburst.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/QBOneLineField.git",
+    "git": "https://github.com/FelixJoseph/QBOneLineField.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -87,7 +87,6 @@
 				607FACD21AFB9204008FA782 /* Example for QBOneLineField */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				1B5031AB6854234B4F41A35D /* Pods */,
 				C67EA890F2A456516FDD0F63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -153,6 +152,7 @@
 		C67EA890F2A456516FDD0F63 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1B5031AB6854234B4F41A35D /* Pods */,
 				719F4D920F015EBAF539740E /* Pods_QBOneLineField_Example.framework */,
 				313DD45660FC0D00461A57D3 /* Pods_QBOneLineField_Tests.framework */,
 			);

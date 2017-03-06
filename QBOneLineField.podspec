@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = 'The field in this library can be used to enter details of login or signup. Multiple entries can be made, one after the other by clicking the next button.'
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/QBOneLineField'
+  s.homepage         = 'https://github.com/FelixJoseph/QBOneLineField'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Felix' => 'felix@qburst.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/QBOneLineField.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/FelixJoseph/QBOneLineField.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
